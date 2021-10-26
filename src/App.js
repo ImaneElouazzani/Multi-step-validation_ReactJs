@@ -1,4 +1,3 @@
-import "./App.css";
 import MultiForm from "./Components/MultiForm/MultiForm"
 
 function App() {
