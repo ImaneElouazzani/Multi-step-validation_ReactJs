@@ -5,12 +5,12 @@ import './SubForm.css'
 export default function DietForm(props) {
 
     const [formData, setFormData] = useState({
-        DietForm: 'nodiet'
+        dietForm: 'nodiet'
     })
 
     const handleRadio = e => {
         setFormData({
-            DietForm: e.target.value
+            dietForm: e.target.value
         })
     }
 
